@@ -1,0 +1,23 @@
+Computername;UserName;Item;Data;WINDOWS_TITLE;VISIBLE_TEXT;ProcessName;Action;IncludeFilter
+;;Sleeptime;7;;;;;
+;;PrintWindowsTextInLogg;FALSE;;;;;
+;;PrintAllActivity;FALSE;;;;;
+;;StatusCaptureTimer;14;;;;;
+;;ErrorCaptureWindowOnly;TRUE;;;;;
+;;EnforceBringToConsole;FALSE;;;;;
+;;PeakProcessMemoryLimit;200000000;;;;;
+;;ListQwinsta;TRUE;;;;;
+;;NoActionWhileUserConnected;TRUE;;;;;
+;;SmtpServer;smtpserver.domain.com;;;;;
+;;smtpMailSuffix;_noreply.windowsninja@domain.com;;;;;
+;;smtpMailTo;recipient@domain.com;;;;;
+;;MoseMovedDetectPauseTime;30;;;;;
+;;SlackToken;xoxp-Enter-Slack-Token;;;;;
+;;SlackErrorChannel;#test;;;;;
+;;SlackInfoChannel;#test;;;;;
+;;PeakCPULimit;95;;;;;
+;;GetWindowAction;Notepad Test;Notepad;Test;notepad.exe;Snapshot, Eventlogg, Mail, Slack;
+Computername;Username;GetWindowAction;CMD MUST BE RUNNING;cmd;;cmd.exe;Snapshot, Eventlogg, Mail, Slack;TRUE
+;;NoAction;FALSE;;;;;
+;;OnlyOneError;TRUE;;;;;
+;;DisableScreenSaver;TRUE;;;;;
